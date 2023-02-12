@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="CSS task1.css">
+</head>
+
+<body>
+    <div class="box">
+        <h1>Student Registration Form</h1>
+        <div class="container">
+            <div class="form">
+                <form>
+                    <div class="name">
+                        <label for="name">Enter Name :</label>
+                        <input type="text" id="name" placeholder="NAME" required>
+                    </div>
+                    <div class="email">
+                        <label for="email">Enter Email :</label>
+                        <input type="email" id="email" placeholder="abc@xyz.com" required>
+                    </div>
+                    <div class="website">
+                        <label for="website">Enter Phone Number :</label>
+                        <input type="tel" id="number" placeholder="+XX-XXXXXXXX" required>
+                    </div>
+                    <div class="website">
+                        <label for="website">Enter Address : </label>
+                        <input type="text" id="website" placeholder="Address" required>
+                    </div>
+                    <div class="gender">
+                        <label for="gender">Gender: </label>
+                        <input type="radio" name="male-female" id="male" value="Male" checked required>Male
+                        <input type="radio" name="male-female" id="female" value="Female">Female
+                    </div>
+                    <div class="website">
+                        <label for="website">Upload latest Photo :</label>
+                        <input type="file" id="website" required>
+                    </div>
+                    <div class="skills">
+                        <label for="skills">Skills :</label> <br>
+                        <input type="checkbox" value="C++" id="cpp" class="checkbox">C++/C 
+                        <input type="range"><br>
+                        <input type="checkbox" value="HTML" id="html" class="checkbox">HTML 
+                        <input type="range"><br>
+                        <input type="checkbox" value="CSS" id="css" class="checkbox">CSS 
+                        <input type="range">
+                    </div>
+                    <div class="website">
+                        <label for="website">Enter Website :</label>
+                        <input type="url" id="website" placeholder="abc.com" required>
+                    </div>
+                    <div class="website">
+                        <label for="website">Your Age Group :</label>
+                        <select id="website" >
+                            <option value="">Choose here</option>
+                            <option value="">18-21</option>
+                            <option value="">22-25</option>
+                            <option value="">26-30</option>
+                            <option value="">31-37</option>
+                            <option value="">38-42</option>
+                            <option value="">43-47</option>
+                            <option value="">47-52</option>
+                            <option value="">53 -</option>
+                        </select>
+                    </div>
+                    <div class="website">
+                        <label for="website">Expected Join Date :</label>
+                        <input type="month" id="website" placeholder=" *****" required>
+                    </div>
+                    <div class="website">
+                        <label for="website">Your Hobbies :</label><br>
+                        <textarea id="website" placeholder="I like to......" required></textarea>
+                    </div>
+                    <div class="website">
+                        <label for="website">Enter D.O.B :</label>
+                        <input type="date" id="website" required>
+                    </div>
+                    <div class="website">
+                        <label for="website">Create Username :</label>
+                        <input type="text" id="website" placeholder="ABC" required>
+                    </div>
+                    <div class="website">
+                        <label for="website">Create password :</label>
+                        <input type="password" id="website" placeholder=" *****" required>
+                    </div>
+
+                    <div class="button">
+                        <button type="button" id="submit">Submit</button>
+                        <button type="reset" id="submit">Clear</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="Task3.js"></script>
+</body>
+
+</html>
