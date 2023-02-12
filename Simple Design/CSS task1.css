@@ -1,0 +1,32 @@
+* {
+  font-family: 'Manrope',
+  sans-serif;
+}
+img{
+  width: 39%;
+  float:left;
+  padding-right: 20px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+} 
+body {
+  background: #353535;
+  background: linear-gradient(to bottom, #8f8f8f, #ffffff);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  position: absolute;
+  left: 24%;
+  top: 300px;
+  background-color: white;
+  color: black;
+  width: 50%;
+  height: 40%;
+  border-radius: 2rem;
+}
+i.fa.fa-apple {
+
+
+}
